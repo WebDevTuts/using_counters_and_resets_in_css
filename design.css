@@ -53,6 +53,13 @@ figure {
 	float: right;
 	line-height: 1.15em;
 	margin: 12px 0 25px 40px;
+	counter-increment: myThumbnails;
+}
+
+figure figcaption::before {
+	content: 'Course ' counter(myThumbnails);
+	font-style: italic;
+	display: block;
 }
 
 figure img {
