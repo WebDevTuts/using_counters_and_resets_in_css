@@ -1,0 +1,3 @@
+### Lynda - Using Counters And Resets In CSS
+
+  The CSS counter properties support the automatic numbering of HTML elements—much like an unordered list, but on any HTML element. There is no impact on the underlying code and when you move content around, the numbers automatically update. This course shows how to apply counters to different elements, including headings and captions, and combine, reuse, and reset counters on a webpage.
